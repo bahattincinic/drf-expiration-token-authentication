@@ -39,3 +39,5 @@ matrix:
       env: DJANGO="django==1.4.13"
     - python: "3.4"
       env: DJANGO="django==1.3.7"
+    - python: "3.4"
+      env: DJANGO="django==1.6.5"
