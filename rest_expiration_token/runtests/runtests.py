@@ -20,7 +20,7 @@ def main():
 
     module_name = 'rest_expiration_token.tests'
     if django.VERSION[0] == 1 and django.VERSION[1] < 6:
-        module_name = 'tests'
+        module_name = 'rest_expiration_token'
 
     failures = test_runner.run_tests([module_name])
     sys.exit(failures)
