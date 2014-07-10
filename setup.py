@@ -5,15 +5,15 @@ from setuptools import setup
 
 
 setup(
-    name='django-rest-expired-token',
+    name='django-rest-expiration-token-authentication',
     version='0.1',
-    packages=['rest_expired_token'],
-    url='https://github.com/bahattincinic/django-rest-expired-token',
+    packages=['rest_expiration_token'],
+    url='https://github.com/bahattincinic/django-rest-expiration-token-authentication',
     license='BSD',
     description='Expiration Token Authentication For Django Rest Framework',
     author='Bahattin Cinic',
     author_email='bahattincinic@gmail.com',
-    test_suite='rest_expired_token.runtests.runtests.main',
+    test_suite='rest_expiration_token.runtests.runtests.main',
     install_requires=['djangorestframework', 'django-nose'],
     classifiers=[
         'Development Status :: 1 - Beta',

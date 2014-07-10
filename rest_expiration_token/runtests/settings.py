@@ -1,5 +1,3 @@
-# Django settings for django-rest-utils project.
-
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 DEBUG_PROPAGATE_EXCEPTIONS = True

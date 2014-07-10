@@ -32,7 +32,7 @@ class ExpiringTokenAuthenticationTests(TestCase):
     """
     Token authentication Tests
     """
-    urls = 'rest_expired_token.tests'
+    urls = 'rest_expiration_token.tests'
 
     def setUp(self):
         self.csrf_client = APIClient(enforce_csrf_checks=True)
