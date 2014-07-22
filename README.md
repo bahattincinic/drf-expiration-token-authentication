@@ -2,7 +2,7 @@ DRF Expiration Token Authentication
 ====================
 Expiration Token Authentication For Django Rest Framework
 
-[![Build Status](https://travis-ci.org/bahattincinic/django-rest-expiration-token-authentication.svg?branch=master)](https://travis-ci.org/bahattincinic/django-rest-expiration-token-authentication)
+[![Build Status](https://travis-ci.org/bahattincinic/drf-expiration-token-authentication.svg?branch=master)](https://travis-ci.org/bahattincinic/drf-expiration-token-authentication)
 
 
 Requirements
