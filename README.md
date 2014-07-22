@@ -1,4 +1,4 @@
-Django Rest Framework Expiration Token Authentication
+DRF Expiration Token Authentication
 ====================
 Expiration Token Authentication For Django Rest Framework
 
@@ -16,7 +16,7 @@ Installation
 
 Install using `pip`...
 
-    pip install -e git@github.com:bahattincinic/django-rest-expiration-token-authentication.git
+    pip install -e git@github.com:bahattincinic/drf-expiration-token-authentication.git
     
 
 Usage
@@ -39,7 +39,7 @@ Add `TOKEN_AUTHENTICATION` to your settings.
 Add `Authentication Backend` to your settings.
     
     REST_FRAMEWORK = {
-        ...
+        ....svg?branch=master
         DEFAULT_AUTHENTICATION_CLASSES: (
             'rest_expiration_token.authentication.ExpiringTokenAuthentication'
             ...
